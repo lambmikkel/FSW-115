@@ -1,0 +1,102 @@
+{
+  "appetizers": [
+    {
+      "name": "Avocado Toast",
+      "ingredients": [
+        "Avocado",
+        "bread",
+        "Olive oil",
+        "Lemon Zest",
+        "Fresh Garlic",
+        "Watermelon radish"
+      ],
+      "description": "Toasted focaccia with avocado, topped with arugula salad of olive oil"
+    },
+
+    {
+      "name": "Cheese Bread",
+      "ingredients": [
+        "Focaccia",
+        "Mozzarella",
+        "Cheddar",
+        "Garlic-herb Parmesan"
+      ],
+      "description": "Scratch-made focaccia baked with mozzarella and cheddar cheeses and a garlic-herb Parmesan."
+    }
+  ],
+
+  "cold sandwiches": [
+    {
+      "name": "Salmon BLT",
+      "ingredients": ["Salmon", "Lettuce", "Tomato", "Yogurt"],
+      "description": "Toasted bread and top with lettuce, sliced tomato, salmon, crisp bacon"
+    },
+
+    {
+      "name": "Provolone Veggie Party Sub",
+      "ingredients": ["Broccoli", "Peppers", "Onions", "Provolone Cheese"],
+      "description": "Toasted sub with fresh veggies and provolone cheese."
+    }
+  ],
+
+  "hot sandwiches": [
+    {
+      "name": "Grilled Chicken Club",
+      "ingredients": [
+        "Lettuce",
+        "Tomato",
+        "Grilled Chicken",
+        "Provolone Cheese"
+      ],
+      "description": "Toasted club sandwich with lettuce, tomato, grilled chicken and provolone cheese."
+    },
+
+    {
+      "name": "French Dip",
+      "ingredients": ["Mozzarella Cheese", "Baguette", "Roast Beef"],
+      "description": "Black Angus roast beef and mozzarella on a baguette, served au jus."
+    }
+  ],
+
+  "desserts": [
+    {
+      "name": "Strawberry Shortcake",
+      "ingredients": [
+        "Sponge Cake",
+        "Strawberry Preserves",
+        "Strawberry puree",
+        " Whip Cream"
+      ],
+      "description": "Sponge cake filled with real strawberry preserves and iced with fresh whipped cream, garnished with fresh strawberries and strawberry puree."
+    },
+
+    {
+      "name": "Brookie",
+      "ingredients": ["Chocolate Brownie", "Chocolate Chip Cookie"],
+      "description": "A delicious blend of chocolate brownie and chocolate chip cookie."
+    }
+  ],
+
+  "drinks": [
+    {
+      "name": "Hero's Garden",
+      "ingredients": [
+        "Lime",
+        "Peach",
+        "Mango",
+        "Cranberries",
+        "Turmeric",
+        "Agave",
+        "Fresh Carrot Juice",
+        "Apple Juice"
+      ],
+      "description": "Refreshing fruit drink to boost body full of nutrients"
+    },
+
+    {
+      "name": "Queen of all Greens",
+      "ingredients": ["Fresh Kale", "Fresh Spinach", "Banana", "Apple Juice"],
+      "description": "Refreshing fruit drink to boost body full of nutrients"
+    }
+  ]
+}
