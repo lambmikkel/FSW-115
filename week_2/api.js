@@ -367,5 +367,3 @@ comp2.innerHTML = '<ul>' + values.map(function (el) {
   return `<li><span>keys:</span> ${Object.keys(el)} <span>values:</span> ${Object.values(el)} </li>`;
 }).join('') + '</ul>'
 
-// var newSet = JSON.stringify(newData);
-// document.body.innerHTML = newSet;
