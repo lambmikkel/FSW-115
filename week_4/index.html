@@ -1,114 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Axios</title>
-  <style>
-    body {
-   text-align: center;
-   background:green;
-  }
-  
-  img {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
-  }
-  
-  input {
-   margin: 10px
-  }
-  
-  h1 {
-   font-weight: bolder;
-   font-size: 75px;
-  }
-     ul {
-       list-style: none;
-     }
-   </style>
-</head>
-<body>
-
-  <div class="panel panel-primary">
-    <div class="panel-heading">POST Request</div>
-    <div class="panel-body">
-      <form class="form-inline" id="todoInputForm">
-        <div class="form-group">
-          <input type="text" class="form-control" id="todoTitle" placeholder="Todo Title ..."><br>
-          <input type="text" class="form-control" id="todoDescription" placeholder="Todo Description ..."><br>
-          <input type="text" class="form-control" id="todoPrice" placeholder="Todo Price ..."><br>
-        </div>
-        <button onclick="createTodo()" type="submit" class="btn btn-primary">Send</button>
-      </form><br/>
-      <button class="btn btn-warning" onclick="clearOutput()">Clear</button>
-      <div class="panel-body" id="postResult"></div>
-    </div>
-  </div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
-  <script src="app.js"></script>
-</body>
-</html>
-
-
-
-
-</div>
-
-<!-- <style>
-  body {
- text-align: center;
- background:green;
-}
-
-img {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 50%;
-}
-
-input {
- margin: 10px
-}
-
-h1 {
- font-weight: bolder;
- font-size: 75px;
-}
-   ul {
-     list-style: none;
-   }
- </style>
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axios</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Axios Todo List</title>
 </head>
 <body>
-</h3> 
-<form> 
-  <input name="title" placeholder="Title"/><br> 
-  <input name="description" placeholder="Description"/><br> 
-  <input name="Price" placeholder="Price"/><br> 
-  <button type="submit">Submit</button> 
-</form> 
-</body>  -->
-    <!-- <div id="todoContainer"></div> -->
-
-    
-    <button onclick="getRequest()">Get Todos</button><br>
-    
-    <script src="app.js"></script>
+    <div id="root">
+        <h1>To-Do List</h1>
+        <input name="task" id="task" type="text" placeholder="New Task"/>
+        <br>
+        <input name="description" id="description" type="text" placeholder="Description"/>
+        <br>
+        <input name="price" id="price" type="number" placeholder="$200"/>
+        <br>
+        <input name="submit" id="submitBtn" type="submit"/>
+        <hr/>
+        <button onclick="getRequest()"></button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="index.js"></script>
 </body>
-</html> -->
+</html>
